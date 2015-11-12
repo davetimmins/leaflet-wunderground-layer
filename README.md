@@ -13,7 +13,7 @@ L.Wunderground.radar(
 
 To get an app/ref Id you can go to http://www.wunderground.com/weather/api/ to sign up for a free account
 
-![Example image](example.png)
+![Example image](https://github.com/davetimmins/leaflet-wunderground-layer/raw/master/example.png)
 
 #### Options
 
