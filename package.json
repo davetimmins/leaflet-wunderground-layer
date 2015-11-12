@@ -1,6 +1,6 @@
 {
   "name": "leaflet-wunderground",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Leaflet map layer for showing radar and satellite data from Weather Underground.",
   "main": "./src/wunderground.layer.js",
   "repository": {
@@ -21,5 +21,8 @@
   },
   "homepage": "https://github.com/davetimmins/leaflet-wunderground-layer",
   "license": "MIT License",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "leaflet": "^0.7.7"
+  }
 }
