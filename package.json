@@ -1,0 +1,25 @@
+{
+  "name": "leaflet-wunderground",
+  "version": "1.0.0",
+  "description": "Leaflet map layer for showing radar and satellite data from Weather Underground.",
+  "main": "./src/wunderground.layer.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davetimmins/leaflet-wunderground-layer.git"
+  },
+  "keywords": [
+    "leaflet",
+    "layer",
+    "maps",
+    "wunderground",
+    "underground",
+    "weather"
+  ],
+  "author": "Dave Timmins (https://github.com/davetimmins/)",
+  "bugs": {
+    "url": "https://github.com/davetimmins/leaflet-wunderground-layer/issues"
+  },
+  "homepage": "https://github.com/davetimmins/leaflet-wunderground-layer",
+  "license": "MIT License",
+  "readmeFilename": "README.md"
+}
