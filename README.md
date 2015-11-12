@@ -30,7 +30,7 @@ To get an app/ref Id you can go to http://www.wunderground.com/weather/api/ to s
 
 From here or install using npm
 
-`npm install leaflet-wnuderground`
+`npm install leaflet-wunderground`
 
 ### Can I help to improve it and/or fix bugs?
 
