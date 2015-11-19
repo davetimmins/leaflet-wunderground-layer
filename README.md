@@ -22,9 +22,9 @@ To get an app/ref Id you can go to http://www.wunderground.com/weather/api/ to s
 
 | Option  | Purpose |
 | ------------- | ------------- |
-| appId  | Required to identify your code to the wunderground API  |
-| refId  | Used to identify your app for referrals  |
-| opacity| Change opacity of layer, default is `0.35` |
+| appId   | Required to identify your code to the wunderground API  |
+| apiRef  | Used to identify your app for referrals  |
+| opacity | Change opacity of layer, default is `0.35` |
 
 ### Get It
 
