@@ -1,6 +1,6 @@
 {
   "name": "leaflet-wunderground",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Leaflet map layer for showing radar and satellite data from Weather Underground.",
   "main": "./src/wunderground.layer.js",
   "repository": {
