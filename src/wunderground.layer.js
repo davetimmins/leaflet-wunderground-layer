@@ -1,7 +1,7 @@
 ﻿/**
  * Layer for current radar and satellite data from Weather Underground
  */
-L.Wunderground = L.Class.extend({
+L.Wunderground = (L.Layer?L.Layer:L.Class).extend({
 
 	includes: L.Mixin.Events,
 
@@ -23,7 +23,7 @@ L.Wunderground = L.Class.extend({
 	onAdd: function (map) {
 		this._map = map;
 
-		this.update = L.Util.limitExecByInterval(this.update, this.options.updateInterval, this);
+		this.update = (L.Util.throttle?L.Util.throttle:L.Util.limitExecByInterval)(this.update, this.options.updateInterval, this);
 
 		this._map.on('moveend', this.update, this);
 
